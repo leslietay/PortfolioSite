@@ -1,16 +1,56 @@
-body, html {
-    height: 50%;
+ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding: 5px;
+    overflow: hidden;
+  }
+
+li {
+    float: right;
 }
 
-.bg {
-    /* The image used */
-    background-image: url("images/bun.jpg");
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
 
-    /* Full height */
-    height: 50%;
+li a:hover {
+    background-color: #F8BBD0;
+}
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  font-family: 'Playfair Display';font-size: 22px;
+  margin-left:25px;
+  margin-right:25px;
+}
+
+.grid-container1{
+  column-count: 2;
+}
+
+.grid-container2{
+  column-count: 3;
+}
+
+.intro{
+  font-size: 16.5px;
+  float: center;
+  width=100%;
+}
+
+a {
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+footer {
+  margin: 10px;
+  color: black;
 }
