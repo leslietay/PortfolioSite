@@ -3,9 +3,6 @@
 	src: url(https://fonts.google.com/specimen/Playfair+Display);
 }
 
-body{
-
-}
 
 a {
   display: inline;
@@ -20,6 +17,7 @@ header{
   display:flex;
   justify-content: center;
   font-family: playfair, sans-serif;
+  background-color:#fdfdf9;
 }
 
 .wrap{
@@ -40,7 +38,7 @@ p{
 }
 
 .name{
-  padding-top:25px;
+  padding-top:18px;
   padding-left:25px;
   padding-right:25px;
   font-size: 24px;
@@ -75,7 +73,14 @@ p{
   padding: 25px;
 }
 
-.row{
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+.col {
+  flex: 33%;
   padding: 25px;
 }
 
@@ -83,6 +88,7 @@ p{
   padding: 30px;
   text-align: center;
   font-family: playfair, sans-serif;
+  text-decoration: underline;
 }
 
 .selfie{
