@@ -3,6 +3,10 @@
 	src: url(https://fonts.google.com/specimen/Playfair+Display);
 }
 
+@font-face {
+	font-family: sacremento;
+	src: url(https://fonts.google.com/specimen/Sacramento);
+}
 
 a {
   display: inline;
@@ -17,7 +21,7 @@ header{
   display:flex;
   justify-content: center;
   font-family: playfair, sans-serif;
-  background-color:#fdfdf9;
+  background-color:#4baff20f;
 }
 
 .wrap{
@@ -41,7 +45,8 @@ p{
   padding-top:18px;
   padding-left:25px;
   padding-right:25px;
-  font-size: 24px;
+	font-size: 36px;
+	font-family: 'Sacramento', cursive;
 }
 
 .nav ul li{
@@ -69,14 +74,19 @@ p{
 }
 
 .container-fluid{
-  font-family: playfair, sans-serif;
-  padding: 25px;
+  font-family: playfair, serif;
+  padding-top: 25px;
+	padding-bottom:25px;
+	padding-left:25px;
+	background-color: #aed6f11f;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 25px;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 
 .col {
@@ -85,10 +95,8 @@ p{
 }
 
 .page_header{
-  padding: 30px;
-  text-align: center;
   font-family: playfair, sans-serif;
-  text-decoration: underline;
+	font-size: 30px;
 }
 
 .selfie{
@@ -99,7 +107,7 @@ p{
 .description{
   font-family: playfair, sans-serif;
   padding:35px;
-  font-size: large;
+  font-size: 17px;
   background-color:#fdfdf9;
   box-shadow: 1px 1px 1px 1px #0000001a;
 }
@@ -109,9 +117,14 @@ p{
   box-shadow: 1px 1px 1px 1px #0000001a;
 }
 
+.img-responsive{
+  box-shadow: 1px 1px 1px 1px #0000001a;
+}
+
 footer {
-  padding:1rem;
+  padding-top:2rem;
+	padding-bottom:1rem;
   color: black;
-  border-top:solid;
   font-family: playfair, sans-serif;
+	background-color: #043f662b;
 }
