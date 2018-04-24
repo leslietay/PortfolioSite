@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <link rel="stylesheet" href="css/customStyle.css">
-  <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/customStyle.css">
+  <link href='https://fonts.google.com/specimen/Playfair+Display' rel='stylesheet' type='text/css'>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -20,52 +21,59 @@
 </head>
 
 <body>
-
-  <ul>
-    <li><a href="homePage.html">About</a></li>
-    <li><a href="sampleWorkPage.html">Home</a></li>
-  </ul>
-
-  <div class="jumbotron">
-    <div class="container text-center">
-      <h1>Hi, I'm Leslie</h1>
+  <header>
+    <div class="wrap">
+      <a href="sampleWorkPage.html">
+        <p class="name"><strong>LESLIE TAYLOR </strong></p>
+      </a>
+      <div class="nav">
+        <ul>
+          <li class="button">
+            <a href="sampleWorkPage.html">Sample work</a>
+          </li>
+          <li class="button">
+            <a href="homePage.html" class="current">About</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </header>
+
+<div class="page_header">
+    <h1><strong>Hi, I'm Leslie. I make websites.</strong></h1>
   </div>
 
-<div class="container-fluid">
-
+<div class="row">
   <div class="col-md-6">
     <div class="selfie">
-      <img src="images/me.jpg" width=100%>
+      <img class="img-responsive" src="images/me.jpg">
     </div>
   </div>
 
   <div class="col-md-6">
-    <div class="intro">
-      <p align="justify"> Hello!</p>
-      <p align="justify"> My name is Leslie Taylor. I'm a self-taught web developer living in Montreal, QC. My background is in software development for engineering applications, but I love taking on web design projects and seeing my work come to life. </p>
-      <p align="justify"> When I'm not coding, I spend my time in dance class, drinking too much coffee, and looking at pictures of dogs online.</p>
-      <p align="justify"> Please feel free to look around my social media, my interactive resume attached below, and my GitHub. If you would like to talk more about what I do, feel free to drop me an email! </p>
+    <div class="description">
+      <p>Hello!</p>
+      <p>My name is Leslie Taylor. I'm a web developer living in Montreal.</p>
+      <p>My background is in software development for aerodynamic applications, but I love taking on web design projects and seeing my work come to life.</p>
+      <p>Besides coding, my other hobbies are dancing, drinking too much coffee, and wishing my apartment building allowed cats.</p>
+      <p>Thanks for taking the time to look aroung at my work. If you would like to collaborate, hit me up! I would love to hear from you.</p>
     </div>
-
-    <div class="resume_link">
-      <img src="images/resume.png" width=100%>
+    <div class="banner">
+      <img class="img-responsive" src="images/bun.png">
+    </div>
     </div>
   </div>
 
-</div>
 </body>
 
 <footer>
   <center>
-    <font color="black" size="-0.5">
-    <p>Contact Me:
-      <a href="mailto:leslieannetaylor@outlook.com">Email </a>
-      <a href="https://www.linkedin.com/in/leslie-taylor">Linkedin </a>
-      <a href="https://github.com/leslietay/">GitHub</a>
-    </p>
-  </font>
-</center>
+      <p>Contact Me:
+        <a href="mailto:leslieannetaylor@outlook.com">Email </a>
+        <a href="https://www.linkedin.com/in/leslie-taylor">Linkedin </a>
+        <a href="https://github.com/leslietay/">GitHub</a>
+      </p>
+  </center>
 </footer>
 
 </html>

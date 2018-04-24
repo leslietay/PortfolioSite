@@ -1,56 +1,111 @@
-ul {
-    list-style-type: none;
-    margin-bottom: 10px;
-    margin-top: 0px;
-    padding: 5px;
-    overflow: hidden;
-  }
-
-li {
-    float: right;
+@font-face {
+	font-family: playfair;
+	src: url(https://fonts.google.com/specimen/Playfair+Display);
 }
 
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
-}
+body{
 
-li a:hover {
-    background-color: #F8BBD0;
-}
-
-body {
-  font-family: 'Playfair Display';font-size: 22px;
-  margin-left:25px;
-  margin-right:25px;
-}
-
-.grid-container1{
-  column-count: 2;
-}
-
-.grid-container2{
-  column-count: 3;
-}
-
-.intro{
-  font-size: 16.5px;
-  float: center;
-  width=100%;
 }
 
 a {
-    display: inline;
-    color: black;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+header{
+  position:relative;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  font-family: playfair, sans-serif;
+}
+
+.wrap{
+  width:100%;
+  max-width:1200px;
+  position:relative;
+  display:flex;
+  flex-flow: row wrap;
+  align-content:flex-start;
+}
+
+header .wrap{
+  justify-content:space-between;
+}
+
+p{
+  display:block;
+}
+
+.name{
+  padding-top:25px;
+  padding-left:25px;
+  padding-right:25px;
+  font-size: 24px;
+}
+
+.nav ul li{
+  list-style:none;
+    list-style-type:none;
+    list-style-position:initial;
+    list-style-image:initial;
+  display:inline-block;
+  position:relative;
+  margin-top: 10px;
+}
+
+.nav ul li a{
+  position: relative;
+  display:inline-block;
+}
+
+.button{
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: playfair, sans-serif;
+}
+
+.container-fluid{
+  font-family: playfair, sans-serif;
+  padding: 25px;
+}
+
+.row{
+  padding: 25px;
+}
+
+.page_header{
+  padding: 30px;
+  text-align: center;
+  font-family: playfair, sans-serif;
+}
+
+.selfie{
+  margin-bottom:25px;
+  box-shadow: 1px 1px 1px 1px #0000001a;
+}
+
+.description{
+  font-family: playfair, sans-serif;
+  padding:35px;
+  font-size: large;
+  background-color:#fdfdf9;
+  box-shadow: 1px 1px 1px 1px #0000001a;
+}
+
+.banner{
+  margin-top:11px;
+  box-shadow: 1px 1px 1px 1px #0000001a;
 }
 
 footer {
-  margin: 10px;
+  padding:1rem;
   color: black;
+  border-top:solid;
+  font-family: playfair, sans-serif;
 }
