@@ -8,6 +8,11 @@
 	src: url(https://fonts.google.com/specimen/Sacramento);
 }
 
+@font-face {
+	font-family: homemadeapple;
+	src: url(https://fonts.google.com/specimen/Cedarville+Cursive);
+}
+
 a {
   display: inline;
   text-align: center;
@@ -19,9 +24,16 @@ header{
   position:relative;
   width:100%;
   display:flex;
-  justify-content: center;
+	flex-flow: row wrap;
+	align-content:flex-start;
   font-family: playfair, sans-serif;
+	justify-content: space-between;
   background-color:#4baff20f;
+}
+
+.logo{
+	float:left;
+	margin-left: 25px;
 }
 
 .wrap{
@@ -41,22 +53,20 @@ p{
   display:block;
 }
 
-.name{
-  padding-top:18px;
-  padding-left:25px;
-  padding-right:25px;
-	font-size: 36px;
-	font-family: 'Sacramento', cursive;
+.namme{
+	margin: 25px;
+	max-height: 70px;
 }
 
 .nav ul li{
+	margin-right: 25px;
   list-style:none;
     list-style-type:none;
     list-style-position:initial;
     list-style-image:initial;
   display:inline-block;
   position:relative;
-  margin-top: 10px;
+  margin-top: 35px;
 }
 
 .nav ul li a{
@@ -74,6 +84,7 @@ p{
 }
 
 .container-fluid{
+	max-width:925px;
   font-family: playfair, serif;
   padding-top: 25px;
 	padding-bottom:25px;
