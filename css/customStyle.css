@@ -92,7 +92,8 @@ p{
 }
 
 .row {
-		max-width:925px;
+	max-width:1500px;
+	justify-content: center;
   display: flex;
   flex-wrap: wrap;
   padding: 25px;
