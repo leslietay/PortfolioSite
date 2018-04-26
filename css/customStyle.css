@@ -84,7 +84,6 @@ p{
 }
 
 .container-fluid{
-	max-width:925px;
   font-family: playfair, serif;
   padding-top: 25px;
 	padding-bottom:25px;
@@ -93,6 +92,7 @@ p{
 }
 
 .row {
+		max-width:925px;
   display: flex;
   flex-wrap: wrap;
   padding: 25px;
